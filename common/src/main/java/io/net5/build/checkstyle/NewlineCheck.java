@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package io.netty.build.checkstyle;
+package io.net5.build.checkstyle;
 
 import com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck;
 import com.puppycrawl.tools.checkstyle.api.FileText;

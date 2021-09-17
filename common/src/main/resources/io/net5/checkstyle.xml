@@ -19,9 +19,9 @@
   "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
 <module name="Checker">
   <module name="SuppressionFilter">
-    <property name="file" value="/io/netty/suppressions.xml" />
+    <property name="file" value="/io/net5/suppressions.xml" />
   </module>
-  <module name="io.netty.build.checkstyle.SuppressionFilter">
+  <module name="io.net5.build.checkstyle.SuppressionFilter">
     <property name="pattern" value="((LocalTime|WorldClock)Protocol|LinkedTransferQueue|Version|jzlib/.*|chmv8/.*|com/sun/nio/sctp/.*)\.java" />
   </module>
   <!-- Ignore module-info.java because checkstyle cannot parse these yet. -->
@@ -50,7 +50,7 @@
     <property name="message" value="IDE-generated comment"/>
   </module>
   <!-- Force UNIX line separator -->
-  <module name="io.netty.build.checkstyle.NewlineCheck"/>
+  <module name="io.net5.build.checkstyle.NewlineCheck"/>
   <!-- Trailing whitespace -->
   <module name="RegexpSingleline">
     <property name="format" value="\s+$"/>

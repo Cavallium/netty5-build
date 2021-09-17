@@ -21,14 +21,15 @@
     <module>common</module>
     <module>glibccheck-maven-plugin</module>
   </modules>
-  <parent>
-    <groupId>org.sonatype.oss</groupId>
-    <artifactId>oss-parent</artifactId>
-    <version>9</version>
-    <relativePath />
-  </parent>
+  <distributionManagement>
+    <repository>
+      <id>mchv-snapshot</id>
+      <name>MCHV Apache Snapshot Maven Packages Distribution</name>
+      <url>https://mvn.mchv.eu/repository/mchv-snapshot</url>
+    </repository>
+  </distributionManagement>
 
-  <groupId>io.netty</groupId>
+  <groupId>io.net5</groupId>
   <artifactId>netty-build</artifactId>
   <packaging>pom</packaging>
   <version>30-SNAPSHOT</version>

@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-package io.netty.build.maven;
+package io.net5.build.maven;
 
 import org.apache.maven.plugin.MojoFailureException;
 import org.junit.Test;

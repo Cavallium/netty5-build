@@ -30,7 +30,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package io.netty.build.junit;
+package io.net5.build.junit;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
